@@ -3,6 +3,9 @@ import "../styles/Blogs.css";
 import { Link } from "react-router-dom";
 
 class BlogPostShort extends Component {
+  componentDidMount() {
+    document.body.className = ''
+  }
   render() {
     return (
       <div className="blog-container blog-container-short">
