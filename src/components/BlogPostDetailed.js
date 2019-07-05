@@ -20,7 +20,7 @@ function BlogPostDetailed(props) {
           The world today, largely driven by technology and innovation, is experiencing major changes as disruptive technologies like Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)-based gene editing have enabled scientists in academia and industries to address a wide range of problems in agriculture with relative ease. In this relation, they claim that CRISPR technology is not only easing the barriers to genome editing, at the same time, it could revolutionise plant breeding and pave the way for second green revolution. However, the advancement in the field of CRISPR-technology has been so rapid that the potential societal, ethical and safety issues are left behind.
         </p>
         <p>
-          <img style={{ float: "left" }} className="secondary-image-left" src={require('../media/biology-close-up-instrument-60022 .jpg')} alt="s"></img>
+          <img style={{ float: "left" }} className="secondary-image-left" src={require('../media/biology-close-up-instrument-60022.jpg')} alt="s"></img>
           CRISPR was first discovered in Bacteria as part of its antiviral defence system. Today CRISPR is used as a molecular toolkit by researchers to alter DNA (Deoxyribonucleic Acid) and change gene function in various fields including agriculture. In the public domain  CRISPR-edited crops are often confused with Genetically Modified Organisms (GMOs), and have fuelled the debate over the strict regulation of the technology. While GMOs are created by adding foreign DNA sequences into a genome, CRISPR is able to make alterations in the genome at specific sites without the introduction of a foreign DNA sequence.
         </p>
         <p>

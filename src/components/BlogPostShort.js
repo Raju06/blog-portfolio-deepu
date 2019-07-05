@@ -24,7 +24,7 @@ class BlogPostShort extends Component {
   gene editing have enabled scientists in academia and industries to address a wide range of problems in
   agriculture with relative ease.
           </p>
-          <Link to={`/blog/transaction data model`}>Read More</Link>
+          <Link to={`/blog/crispr-in-agriculture`}>Read More</Link>
         </div>
       </div>
     );
