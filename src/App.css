@@ -1,11 +1,11 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+  max-width: 50rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .App-header {
@@ -22,12 +22,77 @@
 .App-link {
   color: #61dafb;
 }
+h1,h2,h3,h5,a,p{
+  font-family: "Fira Sans", sans-serif;
+}
+.avatar {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background: url("./media/avatar-large-bw.jpg") center no-repeat;
+  background-size: contain;
+  margin: 0 auto 20px;
+}
+h1 {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+p b{
+  font-weight: 400;
+}
+#social ul {
+  display: flex;
+  justify-content: center;
+}
+#social a {
+  font-weight: 400;
+}
+#social a::after {
+  padding-right: 5px;
+}
+ul{
+  padding: 0;
+}
+ul li{
+  list-style-type: none
+}
+ul li:last-child a::after {
+  content: "";
+}
+#quote {
+  font-size: 13px;
+}
+#email {
+  text-decoration: underline;
+  font-weight: 400;
+  padding: 10px 0 20px;
+  display: block;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#email::after {
+  content: "";
+}
+
+#nav {
+  margin: 40px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+#nav a {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 20px;
+}
+
+footer{
+  height: 200px;
+}
+.image-container{
+  margin: 0 auto;
+  text-align: center;
 }
